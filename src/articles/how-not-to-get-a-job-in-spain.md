@@ -48,7 +48,7 @@ I was also asked to implement three features:
 - Implement infinite scroll for the Home and the Search page
 - Implement a modal to display the movie trailer
 
-This is [what I delivered](https://luke-berry-movieland.vercel.app).
+This is [what I delivered](https://joao-costa-movieland.vercel.app).
 
 > Tip: Take home projects are about prioritizing correctly. Make the requirements work first. If you have time to spare, add enhancements.
 

@@ -6,83 +6,53 @@ export default function AboutPage() {
       </h1>
       <article>
         <p>
-          I was born in São Paulo and moved to{" "}
-          <a href="https://en.wikipedia.org/wiki/Florian%C3%B3polis">
-            Florianópolis
+          I was born and raised in{" "}
+          <a href="https://en.wikipedia.org/wiki/Rio_de_Janeiro">
+          Rio de Janeiro
           </a>{" "}
-          as a 10 year old kid. I fell in love with the nature, sport and music
-          culture of the Magical Island.
+          —still here for now, but dreaming of becoming a digital nomad.
         </p>
-        <p>
-          In the next decade, I{" "}
-          <a href="https://open.spotify.com/artist/4ymHKBTThfeOL114lwCWPQ?si=c30897c35e404259">
-            became a singer-songwriter
-          </a>
-          , got a Karate blue belt, won back-to-back Carnavals with a samba
-          school and wasted thousands of hours playing League of Legends.
+        
+        <p className="mt-1">
+        My coding journey began in high school with a simple program that sparked my passion. Since then, 
+        I’ve focused on frontend development while gradually expanding into backend and DevOps to grow as a generalist.
         </p>
-        <p>
-          Then I studied Economics at{" "}
-          <a href="https://en.wikipedia.org/wiki/Federal_University_of_Santa_Catarina">
-            Federal University of Santa Catarina
-          </a>
-          , mostly for my love for History and Math. I learned a lot of
-          Politics, Statistics and Macroeconomics.
+        <p className="mt-1">
+        Outside of work, I&apos;m probably playing chess, learning a new language, 
+        practicing volleyball, dancing terribly but confidently, or hanging out 
+        with friends.
         </p>
-        <p>
-          But I&apos;d spent too long studying models that weren&apos;t
-          applicable in real-life. I felt disconnected from my studies which led
-          to me dropping out after 2 years.
+        <p className="mt-1">
+        Professionally, I started at NFHub, where I helped build a tool that empowers
+        employees to safely raise sensitive issues within companies. Creating something 
+        with real impact—and seeing it work in the real world—reminded me why I love what I do.
         </p>
-        <p>
-          Then came my first contact with programming: as a Data Analyst at a
-          Tech startup. We used Microsoft Excel and Power BI to generate our
-          reports.
+        <p className="mt-1">
+        Later I&apos;ve helped modernize legacy systems and bring new products to life. At Cibernix, 
+        I was part of a small team transforming an old platform into something faster, safer, 
+        and more reliable. That&apos;s where I discovered how much I care about clean design, stability, 
+        and user trust.
         </p>
-        <p>
-          With millions of data entries, it wasn&apos;t long until my Dell
-          notebook became unusably slow. This led me to learn Python and Pandas
-          to better deal with datasets, as well as Selenium and pyautogui.
+        <p className="mt-1">
+        I&apos;ve also played around with the backend, building a Todo API with GraphQL, Koa, and Mongoose to 
+        sharpen my TypeScript and testing skills. These days, I&apos;m deep into learning cloud and 
+        infrastructure—prepping for my AWS Developer Associate certification and exploring how to build 
+        scalable systems that don&apos;t break under pressure.
         </p>
-        <p>
-          I&apos;ve always been obsessed with user interfaces. My friends
-          couldn&apos;t bear me pointing out broken buttons and ugly websites
-          all the time.
+        <p className="mt-1">
+        I believe good software feels natural, solves a real need, and respects the person using it. 
+        Whether it&apos;s squashing bugs, mentoring a teammate, or deploying a more secure login flow, 
+        I try to build with care.
         </p>
-        <p>
-          When I found out what HTML was, I did a deep dive into the Frontend. I
-          completed FreeCodeCamp&apos;s{" "}
-          <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">
-            Responsive Web Design
-          </a>{" "}
-          and swiftly progressed to Javascript and React soon after.
+        <p className="mt-1">
+        If you want to get in touch, send me a DM on <a href="https://x.com/itsjovi_dev">X</a> or an email
+        {" "}<a href="mailto:costajoao255@gmail.com">costajoao255@gmail.com</a>.
         </p>
-        <p>
-          I became more active within the Brazilian Dev community, sharing
-          quirky UI bugs and building my projects in public such as{" "}
-          <a href="https://phived.com">phived</a> and{" "}
-          <a href="https://css2wind.com">css2wind</a>. I collaborated with
-          hundreds of developers and contributed a lot to Open Source.
-        </p>
-        <p>
-          In 2024, I traveled to Torino, Italy to visit my dad. My life flipped
-          upside down and I ended up living in Málaga for a while. After I{" "}
-          <a href="/articles/how-not-to-get-a-job-in-spain">
-            failed to get a job
-          </a>
-          , I moved to the UK and landed a job in London, where I currently
-          live.
-        </p>
-        <p>
-          If you want to get in touch, send me a DM on{" "}
-          <a href="https://x.com/lukeberrypi">X</a> or an email{" "}
-          <a href="mailto:lukeberrypi@gmail.com">lukeberrypi@gmail.com</a>.
-        </p>
-        <p>Smile, you&apos;re alive :)</p>
-        <p>
+        {/* <p>Smile, you&apos;re alive :)</p> */}
+        <p className="mt-1">
           Best,
           <br />
-          Luke
+          João
         </p>
       </article>
     </>

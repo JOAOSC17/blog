@@ -105,11 +105,15 @@ export default function ProjectsPage() {
       <h1 className="mb-16 mt-4 text-center text-5xl max-sm:text-4xl">
         Projects
       </h1>
-      <div className="space-y-20">
+
+      <div className="space-y-20 text-center">
+      <blockquote className="text-zinc-800 dark:text-zinc-300">Coming soon</blockquote>
+      </div>
+      {/* <div className="space-y-20">
         {projects.map((project) => (
           <ProjectCard key={project.url} {...project} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 }
