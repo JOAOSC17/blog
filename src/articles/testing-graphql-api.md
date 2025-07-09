@@ -1,15 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title><![CDATA[João Costa Blog]]></title>
-        <description><![CDATA[This is my blog]]></description>
-        <link>https://itsjovi.vercel.app/</link>
-        <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 12 Aug 2024 14:34:43 GMT</lastBuildDate>
-        <atom:link href="https://itsjovi.vercel.app//rss.xml" rel="self" type="application/rss+xml"/>
-        <language><![CDATA[en]]></language>
-        <item>
-            <title><![CDATA[Testing a GraphQL Application with Jest and SuperTest]]></title>
-            <description><![CDATA[In this blog post, we'll explore the challenges and solutions involved in testing a GraphQL API using Jest and SuperTest. The journey began with the need to simulate headers, specifically for token-based authentication, in Jest tests.
+---
+title: "Testing a GraphQL Application with Jest and SuperTest"
+date: "2025-01-13"
+tags: ["technology", "beginner"]
+location: "Rio de Janeiro, Brazil"
+---
+In this blog post, we'll explore the challenges and solutions involved in testing a GraphQL API using Jest and SuperTest. The journey began with the need to simulate headers, specifically for token-based authentication, in Jest tests.
 
 ## The Challenge: Simulating Headers in Jest
 
@@ -198,10 +193,3 @@ This command will execute all test files, providing a detailed report of the res
 
 The difficulty in simulating headers in Jest led to the discovery of SuperTest, which significantly simplified the process. By leveraging SuperTest alongside Jest, I was able to effectively test the GraphQL API's authentication and CRUD operations, ensuring the application's security and functionality. Sharing this learning process highlights the power of public learning and community-driven problem-solving.
 
-]]></description>
-            <link>https://itsjovi.vercel.app//articles/testing-graphql-api</link>
-            <guid isPermaLink="true">https://itsjovi.vercel.app//articles/testing-graphql-api</guid>
-            <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-    </channel>
-</rss>

@@ -13,10 +13,7 @@ export default async function ArticlesPage() {
 
       {/* TODO: add tags filter (OR between all selections)
       <p>{JSON.stringify(getAllTags())}</p> */}
-      <div className="space-y-20 text-center">
-        <blockquote className="text-zinc-800 dark:text-zinc-300">Coming soon</blockquote>
-      </div>
-      {/* <section className="flex flex-col divide-y divide-zinc-400 overflow-hidden rounded ring-1 ring-zinc-400 dark:divide-zinc-500 dark:ring-zinc-500">
+      <section className="flex flex-col divide-y divide-zinc-400 overflow-hidden rounded ring-1 ring-zinc-400 dark:divide-zinc-500 dark:ring-zinc-500">
         {articles.map((article: Article) => (
           <Link
             className="flex items-center justify-between px-4 py-2 transition-all sm:p-4 sm:hover:bg-zinc-200 sm:dark:hover:bg-zinc-800"
@@ -34,7 +31,7 @@ export default async function ArticlesPage() {
             </span>
           </Link>
         ))}
-      </section> */}
+      </section> 
     </div>
   );
 }
